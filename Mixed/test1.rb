@@ -1,13 +1,24 @@
-class MyClass
-  def method_missing(method_name, *args, &block)
-    if method_name == :foo
-      "missing completed"
-    else
-      super
-    end
-  end
+# puts "Holy giraffes! You fell into a maze!"
+# print "Where to? (N, E, S, W):"
+# direction = gets.chomp
+# puts "#{direction}, you say= A fine choice!"
+# if direction == "N"
+#    puts "You are in a maze of twisty little passages, all alike."
+# elsif direction == "E"
+#    puts "An elf! And his pet ham!"
+# elsif direction == "S"
+#    puts "A minotaur! Wait, no, that's just your reflection."
+# elsif direction == "W"
+#    puts "You're here, wherever here is."
+# else
+#    puts "Wait, is that even a direction?"
+# end
+if flow_rate > 50
+  puts "Warning! flow_rate is not 50! It's #{flow_rate}"
+  flow_rate = 50
+  puıts "The flow_rate's been reset to #{flow_rate}."
+elsif flow_rate = 50
+  puts "Warning! flow_rate's been reset to #{flow_rate}"
+else
+  puts "The flow_rate is #{flow_rate} (thank goodness)"
 end
-obj = MyClass.new
-obj.foo
-# obj.bar
-p MyClass

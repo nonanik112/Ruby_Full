@@ -21,7 +21,7 @@ class Player
       puts "Pick a move"
       print "> "
       @move = gets.chomp.strip.downcase.to_sym
-      if @move = :quit
+      if @move = ":quit"
        return false
       elsif MOVES.include?(@move)
        return @move

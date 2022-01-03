@@ -1,18 +1,18 @@
-# my_fave_numbers =  [1, 35, 71, 102]
-# puts my_fave_numbers
-#
-# top_5_foods = [
-#   "Grilled Cheese",
-#   "Pizza",
-#   "Grilled Cheese",
-#   "Bacon",
-#   "Grilled Cheese with Bacon"
-# ]
-#
-# threes = [3, 3.0, '3', '3.0', 'three', :three]
-# puts threes
-# p threes
-#
+my_fave_numbers =  [1, 35, 71, 102]
+puts my_fave_numbers
+
+top_5_foods = [
+  "Grilled Cheese",
+  "Pizza",
+  "Grilled Cheese",
+  "Bacon",
+  "Grilled Cheese with Bacon"
+]
+
+threes = [3, 3.0, '3', '3.0', 'three', :three]
+puts threes
+p threes
+
 
 # /////////////////////////////////////////////
 # İtems in an Array

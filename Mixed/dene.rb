@@ -4,11 +4,12 @@
 #
 # end
 
-sayi = "a, b, c"
-def klasik
-  return "1.sayıyı giriniz"
-  puts " "
-  return "2.sayıyı giriniz"
-  put " "
+
+
+
+class HelloWorld
+  def self.hello
+   print "Goodbye, Mars!"
+  end
 end
-puts klasik { a + b + c}
+HelloWorld.hello
